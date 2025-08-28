@@ -9,7 +9,7 @@
 3. 进入仓库 **Settings → Pages**：
    - `Branch` 选择 `main`，`/ (root)` 目录。
    - 点击 **Save**，等待 GitHub 完成部署。
-4. 访问形如 `https://你的用户名.github.io/my-site/` 的网址即可查看。
+4. 访问 `https://tomacx.github.io/my-site/` 网址即可查看。
 
 ## 本地预览
 直接用浏览器打开 `index.html` 即可。

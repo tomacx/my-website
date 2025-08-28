@@ -18,9 +18,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">首页</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">文档</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">关于</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">个人介绍</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">科研经历</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">项目经历</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">成果展示</a></li>
           </ul>
         </div>
       </div>
@@ -41,34 +42,73 @@
     </header>
 
     <!-- 主体 -->
-    <main class="container py-4">
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">简洁</h5>
-              <p class="card-text">只包含必要文件，适合 GitHub Pages 一键上线。</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">可扩展</h5>
-              <p class="card-text">后续可添加文档页、组件示例、搜索等功能。</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">现代</h5>
-              <p class="card-text">使用 Bootstrap 5，默认支持移动端响应式布局。</p>
-            </div>
+    <main class="container py-5">
+
+  <!-- 个人介绍 -->
+  <section id="about" class="mb-5">
+    <h2 class="mb-4">个人介绍</h2>
+    <div class="row align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="assets/img/avatar.jpg" class="rounded-circle img-fluid mb-3" alt="头像">
+      </div>
+      <div class="col-md-9">
+        <p>你好，我是XXX，目前在XXX从事XXX研究，研究兴趣包括XXX、XXX、XXX。联系方式：<a href="mailto:xxx@email.com">xxx@email.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 科研经历 -->
+  <section id="research" class="mb-5">
+    <h2 class="mb-4">科研经历</h2>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <strong>2023 - 至今</strong>：XXX实验室，研究主题：XXX
+      </li>
+      <li class="list-group-item">
+        <strong>2021 - 2023</strong>：XXX大学，研究助理，参与XXX项目
+      </li>
+    </ul>
+  </section>
+
+  <!-- 项目经历 -->
+  <section id="projects" class="mb-5">
+    <h2 class="mb-4">项目经历</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">项目A</h5>
+            <p class="card-text">项目简介：这是一个XXX项目，主要解决XXX问题。</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">了解更多</a>
           </div>
         </div>
       </div>
-    </main>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">项目B</h5>
+            <p class="card-text">项目简介：这是一个XXX项目，涉及XXX技术。</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">了解更多</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 成果展示 -->
+  <section id="publications" class="mb-5">
+    <h2 class="mb-4">成果展示</h2>
+    <p>以下是部分科研成果和演示：</p>
+    <ul>
+      <li>论文1：<a href="https://example.com/paper1">XXX方法</a></li>
+      <li>论文2：<a href="https://example.com/paper2">XXX系统</a></li>
+    </ul>
+    <div class="ratio ratio-16x9 mb-3">
+      <iframe src="https://www.youtube.com/embed/你的视频ID" title="展示视频" allowfullscreen></iframe>
+    </div>
+  </section>
+
+</main>
 
     <!-- 页脚 -->
     <footer class="border-top py-4">
