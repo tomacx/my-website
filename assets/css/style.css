@@ -1,0 +1,7 @@
+/* 自定义最小样式，可按需扩展 */
+:root {
+  --brand-color: #0d6efd;
+}
+header {
+  background: linear-gradient(180deg, rgba(13,110,253,0.06), rgba(13,110,253,0));
+}
